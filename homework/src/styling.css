@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.links-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.links-bar a {
+  padding: 20px 15px;
+  margin: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.links-bar .about-link {
+  background-color: tomato;
+  color: white;
+}
+.links-bar .contact-link {
+  color: tomato;
+  border: 1px solid tomato;
+}
