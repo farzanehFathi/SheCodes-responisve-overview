@@ -1,6 +1,6 @@
 :root {
   --primary-color: tomato;
-  --secondary-color: salmon;
+  --paragraph-color: rgb(246, 206, 201);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -8,7 +8,6 @@ body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   margin: 60px auto;
-  max-width: 800px;
 }
 img {
   max-width: 100%;
@@ -50,7 +49,6 @@ h3 {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-
 .link-box {
   width: 100%;
   text-align: left;
@@ -60,8 +58,8 @@ h3 {
   text-decoration: none;
   font-weight: bolder;
   color: white;
-  background-color: var(--secondary-color);
-  padding: 3px 20px;
+  background-color: var(--primary-color);
+  padding: 3px 25px;
   margin-bottom: 10px;
 }
 
@@ -74,7 +72,7 @@ h3 {
   padding: 20px;
   margin: 10px;
   border-radius: 5px;
-  background-color: var(--secondary-color);
+  background-color: var(--paragraph-color);
   text-align: center;
   font-size: 18px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -83,4 +81,19 @@ h3 {
 .contact-link {
   text-decoration: none;
   color: var(--primary-color);
+}
+img {
+  vertical-align: middle;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.bg-paragraph {
+  background-color: var(--paragraph-color);
 }
