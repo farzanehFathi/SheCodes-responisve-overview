@@ -5,37 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About Dobby</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="src/styling.css" />
   </head>
   <body>
-      <div class="link-box">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dobby</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Dobbi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-dobby">Contact Dobby</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div class="link-box">
       <a href="index.html" class="home-link">⬅ Beck to Homepage</a>
     </div>
     <head>
-    <head>
       <img src="images/dobby.webp" alt="Dobby" />
-    </head>
+    </head> -->
     <h1>About Dobby</h1>
     <h3>Brave House-Elf & Harry's Best Trusty</h3>
-    <dive class="about-dobby">
+    <dive>
       <p>
-        He is a house-elf from the Malfoy family, who befriends Harry and goes
-        out of his way to try to save his life numerous times. In the seventh
-        and final book Harry Potter and the Deathly Hallows, he is killed by
-        Bellatrix Lestrange while helping Harry and his friends escape from
-        Malfoy Manor. He was avenged by Molly Weasley, who killed Bellatrix
-        Lestrange.
-      </p>
-      <p>
-        He is a major character in Harry Potter and the Chamber of Secrets and a
-        supporting character in Harry Potter and the Goblet of Fire, Harry
-        Potter and the Order of Phoenix, Harry Potter and the Half-Blood Prince,
-        and Harry Potter and the Deathly Hallows. After failing to find a job
-        during Harry's third year at Hogwarts, Dobby came to work at the
-        kitchens of Hogwarts along with many other house elves, including Barty
-        Crouch Sr.'s fired elf, Winky.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+        ea nam dolorem odit facilis asperiores odio pariatur quidem possimus.
+        Culpa omnis quia architecto ut laudantium, eligendi perferendis animi!
+        Est, porro?
       </p>
     </dive>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 m-3 p-2 shadow">
+          <div class="bg-paragraph rounded p-2">
+            <img src="images/dobby-1.jpg" class="img-fluid rounded" />
+          </div>
+        </div>
+
+        <div class="col-sm-3 m-3 p-2 shadow">
+          <div class="bg-paragraph rounded p-2">
+            <img src="images/dobby-2.jpeg" class="img-fluid rounded" />
+          </div>
+        </div>
+
+        <div class="col-sm-3 m-3 p-2 shadow">
+          <div class="bg-paragraph rounded p-2">
+            <img src="images/dobby-3.jpeg" class="img-fluid rounded" />
+          </div>
+        </div>
+      </div>
+    </div>
     <h2 id="contact-dobby">🦉 Contact Dobby</h2>
     To reach Dobby, kindly send an owl to
     <a href="mailto:Dobby@Hogwarts.com" class="contact-link"
