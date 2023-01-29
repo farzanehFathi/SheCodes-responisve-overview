@@ -22,51 +22,62 @@
     <link rel="stylesheet" href="src/styling.css" />
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Dobby</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Dobbi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html#contact-dobby">Contact Dobby</a>
-                </li>
-          
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dobby</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Dobbi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact-dobby"
+                >Contact Dobby</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <h2>🖐 Hi, thi is</h2>
+    <h2 class="mt-5 text-center">🖐 Hi, thi is</h2>
 
-    <h1>
-      Dobby, the House-elf
-    </h1>
-    <h3>
+    <h1 class="text-center">Dobby, the House-elf</h1>
+    <h3 class="text-center">
       The Loyal, Mischievous House-Elf based in Hogwarts
     </h3>
     <div class="container">
-      <div class="links-bar mb-5">
-        <a href="about.html" class="about-link">About Dobby</a>
-        <a href="about.html#contact-dobby" class="contact-link"
+      <div class="links-bar">
+        <a href="about.html" class="primary-link">About Dobby</a>
+        <a href="about.html#contact-dobby" class="secondary-link"
           >Contact Dobby</a
         >
       </div>
-      <div class="container"></div>
-      <div class="row">
-        <div class="col-md-6 bg-paragraph rounded p-3">
-          <img src="images/dobby-2.jpg" class="img-fluid rounded" />
+    </div>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img
+            src="images/dobby-2.jpg"
+            class="index-image-format img-fluid img-thumbnail p-2"
+          />
         </div>
         <div class="col-md-6 text-start">
-          <h2>Dumbledore's Army</h2>
+          <h2 class="mb-3">Dumbledore's Army</h2>
           <p class="text-start">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
             totam, officia velit ad, dolores eligendi magni error vel fugiat
@@ -80,7 +91,7 @@
       </div>
       <div class="row mt-5">
         <div class="col-md-6 text-start">
-          <h2>Hogwarts Kitchen</h2>
+          <h2 class="mb-3">Hogwarts Kitchens</h2>
           <p class="text-start">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
             totam, officia velit ad, dolores eligendi magni error vel fugiat
@@ -91,16 +102,22 @@
             <a href="" class="primary-link">Read more here</a>
           </div>
         </div>
-        <div class="col-md-6 bg-paragraph rounded p-5">
-          <img src="images/dobby-1.jpg" class="img-fluid rounded" />
+        <div class="col-md-6">
+          <img
+            src="images/dobby-1.jpg"
+            class="index-image-format img-fluid img-thumbnail p-2"
+          />
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-6 bg-paragraph rounded p-3">
-          <img src="images/dobby-3.jpeg" class="img-fluid rounded" />
+      <div class="row mt-5 mb-5">
+        <div class="col-md-6">
+          <img
+            src="images/dobby-3.jpeg"
+            class="index-image-format img-fluid img-thumbnail p-2"
+          />
         </div>
         <div class="col-md-6 text-start">
-          <h2>Malfoy Manor and death</h2>
+          <h2 class="mb-3">Malfoy Manor and death</h2>
           <p class="text-start">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
             totam, officia velit ad, dolores eligendi magni error vel fugiat
@@ -111,9 +128,6 @@
             <a href="" class="primary-link">Read more here</a>
           </div>
         </div>
-      </div>
-     
-       
       </div>
     </div>
   </body>
