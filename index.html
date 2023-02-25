@@ -13,7 +13,9 @@
     }
     h1,
     h2,
-    ul {
+    ul,
+    li,
+    p {
       margin: 0;
       padding: 0;
     }
@@ -30,6 +32,10 @@
     }
     ul {
       list-style: none;
+    }
+
+    a {
+      text-decoration: none;
     }
 
     .week {
@@ -60,15 +66,6 @@
       background: white;
       color: tomato;
       cursor: pointer;
-    }
-
-    .challenge a {
-      text-decoration: none;
-      color: white;
-    }
-
-    .challenge a:hover {
-      color: tomato;
     }
 
     .challenge p {
@@ -137,12 +134,13 @@
           >
           <p>Responsive Grids</p>
         </li>
-        <li class="challenge">
-          <a href="/challenge23/" target="_blank" rel="noopener noreferrer"
-            >Challenge 3</a
-          >
-
-          <p>Responsive Images</p>
+        <li>
+          <a href="/challenge23/" target="_blank" rel="noopener noreferrer">
+            <div class="challenge">
+              Challenge 3
+              <p>Responsive Images</p>
+            </div>
+          </a>
         </li>
         <li class="challenge">
           <a href="/challenge24/" target="_blank" rel="noopener noreferrer"
