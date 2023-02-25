@@ -51,7 +51,8 @@
     }
 
     .challenge,
-    .homework {
+    .homework,
+    .practice {
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     }
@@ -76,17 +77,33 @@
       margin: 10px 0 0;
     }
 
-    .homework {
+    .homework,
+    .practice {
       margin: 10px;
       padding: 10px 5px;
-      color: rgb(67, 4, 127);
-      border: 1px solid rgb(67, 4, 127);
+
       border-radius: 5px;
       transition: all 200ms ease-in-out;
+    }
+
+    .homework {
+      color: rgb(67, 4, 127);
+      border: 1px solid rgb(67, 4, 127);
     }
     .homework:hover {
       color: white;
       background: rgb(67, 4, 127);
+      cursor: pointer;
+    }
+
+    .practice {
+      color: #5fbeb6;
+      border: 1px solid #5fbeb6;
+    }
+
+    .practice:hover {
+      color: white;
+      background: #5fbeb6;
       cursor: pointer;
     }
   </style>
@@ -186,7 +203,29 @@
       </ul>
     </div>
     <a href="/homework/index.html" target="_blank" rel="noopener noreferrer">
-      <div class="homework">Homework 1: Advanced HTML/CSS</div></a
+      <div class="homework">Homework 1: About Dobby</div></a
+    >
+    <a
+      href="https://bright-cassata-8858c9.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="homework">Homework 3: Croissant Website</div></a
+    >
+    <a
+      href="https://phenomenal-alpaca-fca40e.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="homework">Homework 2: Dobby Website</div></a
+    >
+
+    <a
+      href="https://capable-sopapillas-c82df1.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="practice">Extra Practice: My Writing Portfolio</div></a
     >
   </body>
 </html>
