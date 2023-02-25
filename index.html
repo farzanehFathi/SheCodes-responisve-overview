@@ -50,10 +50,13 @@
       justify-content: space-between;
     }
 
-    .challenge {
+    .challenge,
+    .homework {
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-      text-align: center;
+    }
+
+    .challenge {
       color: white;
       padding: 5px 15px;
       border-radius: 5px;
@@ -72,45 +75,70 @@
       font-size: small;
       margin: 10px 0 0;
     }
+
+    .homework {
+      margin: 10px;
+      padding: 10px 5px;
+      color: rgb(67, 4, 127);
+      border: 1px solid rgb(67, 4, 127);
+      border-radius: 5px;
+      transition: all 200ms ease-in-out;
+    }
+    .homework:hover {
+      color: white;
+      background: rgb(67, 4, 127);
+      cursor: pointer;
+    }
   </style>
   <body>
     <h1>SheCodes Responsive</h1>
     <div class="week">
       <h2>Week 1</h2>
       <ul class="challenge-list">
-        <li class="challenge">
+        <li>
           <a
             href="/challenge11/index.html"
             target="_blank"
             rel="noopener noreferrer"
-            >Challenge 1</a
           >
-          <p>Multiple HTML Pages</p>
+            <div class="challenge">
+              Challenge 1
+              <p>Multiple HTML Pages</p>
+            </div>
+          </a>
         </li>
-        <li class="challenge">
+        <li>
           <a
             href="/challenge12/index.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Challenge 2</a
-          >
-          <p>Advanced HTML Links</p>
+            <div class="challenge">
+              Challenge 2
+
+              <p>Advanced HTML Links</p>
+            </div>
+          </a>
         </li>
-        <li class="challenge">
+        <li>
           <a
             href="/challenge13/index.html"
             target="_blank"
             rel="noopener noreferrer"
-            >Challenge 3</a
           >
-          <p>CSS Variables</p>
+            <div class="challenge">
+              Challenge 3
+              <p>CSS Variables</p>
+            </div>
+          </a>
         </li>
-        <li class="challenge">
-          <a href="/challenge14/" target="_blank" rel="noopener noreferrer"
-            >Challenge 4</a
+        <li>
+          <a href="/challenge14/" target="_blank" rel="noopener noreferrer">
+            <div class="challenge">
+              Challenge 4
+              <p>Flexbox</p>
+            </div></a
           >
-          <p>Flexbox</p>
         </li>
       </ul>
     </div>
@@ -118,21 +146,26 @@
     <div class="week">
       <h2>Week 2</h2>
       <ul class="challenge-list">
-        <li class="challenge">
+        <li>
           <a
             href="/challenge21/index.html"
             target="_blank"
             rel="noopener noreferrer"
-            >Challenge 1</a
           >
-          <p>Utility CSS Classes</p>
+            <div class="challenge">
+              Challenge 1
+              <p>Utility CSS Classes</p>
+            </div>
+          </a>
         </li>
 
-        <li class="challenge">
-          <a href="/challenge22/" target="_blank" rel="noopener noreferrer"
-            >Challenge 2</a
-          >
-          <p>Responsive Grids</p>
+        <li>
+          <a href="/challenge22/" target="_blank" rel="noopener noreferrer">
+            <div class="challenge">
+              Challenge 2
+              <p>Responsive Grids</p>
+            </div>
+          </a>
         </li>
         <li>
           <a href="/challenge23/" target="_blank" rel="noopener noreferrer">
@@ -142,13 +175,18 @@
             </div>
           </a>
         </li>
-        <li class="challenge">
-          <a href="/challenge24/" target="_blank" rel="noopener noreferrer"
-            >Challenge 4</a
-          >
-          <p>Responsive Navigation</p>
+        <li>
+          <a href="/challenge24/" target="_blank" rel="noopener noreferrer">
+            <div class="challenge">
+              Challenge 4
+              <p>Responsive Navigation</p>
+            </div>
+          </a>
         </li>
       </ul>
     </div>
+    <a href="/homework/index.html" target="_blank" rel="noopener noreferrer">
+      <div class="homework">Homework 1: Advanced HTML/CSS</div></a
+    >
   </body>
 </html>
